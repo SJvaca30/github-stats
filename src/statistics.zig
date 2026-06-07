@@ -55,6 +55,14 @@ const Repository = struct {
             ),
         );
         defer client.allocator.free(response.body);
+        if (response.status == .no_content) {
+            self.lines_changed = 0;
+            std.log.info(
+                "Skipping lines changed by {s} in {s}: GitHub returned no contributor stats content.",
+                .{ user, self.name },
+            );
+            return response.status;
+        }
         if (response.status == .ok) {
             self.lines_changed = 0;
             const authors = std.json.parseFromSliceLeaky(
@@ -596,7 +604,7 @@ fn getLinesChanged(
             try io.sleep(.fromSeconds(delay), .real);
         }
         switch (try item.repo.getLinesChanged(arena, client, self.user)) {
-            .ok => {},
+            .ok, .no_content => {},
             // If we're hitting rate limits on this API, just clone the repo
             // locally to compute lines changed
             // https://docs.github.com/en/rest/using-the-rest-api/troubleshooting-the-rest-api?apiVersion=2026-03-10#rate-limit-errors
