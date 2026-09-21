@@ -134,28 +134,28 @@ div.ellipsis {
 <span class="progress">
 <span style="
   background-color: #b07219; 
-  width: 35.616%;
+  width: 35.633%;
 " class="progress-item"></span><span style="
   background-color: #3178c6; 
-  width: 23.251%;
+  width: 23.244%;
 " class="progress-item"></span><span style="
   background-color: #f1e05a; 
-  width: 16.827%;
+  width: 16.821%;
 " class="progress-item"></span><span style="
   background-color: #A97BFF; 
   width: 4.716%;
 " class="progress-item"></span><span style="
   background-color: #dea584; 
-  width: 4.208%;
+  width: 4.207%;
 " class="progress-item"></span><span style="
   background-color: #3572A5; 
-  width: 3.934%;
+  width: 3.932%;
 " class="progress-item"></span><span style="
   background-color: #F05138; 
-  width: 3.217%;
+  width: 3.218%;
 " class="progress-item"></span><span style="
   background-color: #f34b7d; 
-  width: 2.900%;
+  width: 2.899%;
 " class="progress-item"></span><span style="
   background-color: #7355dd; 
   width: 1.287%;
@@ -302,7 +302,7 @@ div.ellipsis {
       d="M8 4a4 4 0 100 8 4 4 0 000-8z"
   ></path></svg>
   <span class="lang">Java</span>
-  <span class="percent">35.62%</span>
+  <span class="percent">35.63%</span>
 </li>
 <li style="animation-delay: 300ms;">
   <svg 
@@ -318,7 +318,7 @@ div.ellipsis {
       d="M8 4a4 4 0 100 8 4 4 0 000-8z"
   ></path></svg>
   <span class="lang">TypeScript</span>
-  <span class="percent">23.25%</span>
+  <span class="percent">23.24%</span>
 </li>
 <li style="animation-delay: 450ms;">
   <svg 
@@ -334,7 +334,7 @@ div.ellipsis {
       d="M8 4a4 4 0 100 8 4 4 0 000-8z"
   ></path></svg>
   <span class="lang">JavaScript</span>
-  <span class="percent">16.83%</span>
+  <span class="percent">16.82%</span>
 </li>
 <li style="animation-delay: 600ms;">
   <svg 
@@ -478,7 +478,7 @@ div.ellipsis {
       d="M8 4a4 4 0 100 8 4 4 0 000-8z"
   ></path></svg>
   <span class="lang">Objective-C++</span>
-  <span class="percent">0.82%</span>
+  <span class="percent">0.81%</span>
 </li>
 <li style="animation-delay: 1950ms;">
   <svg 
